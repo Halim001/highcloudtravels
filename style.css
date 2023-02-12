@@ -1,0 +1,85 @@
+.icon {
+  background-color: white;
+  border-radius: 100%;
+  margin: 10px;
+}
+#navbrand {
+  display: flex;
+  align-items: center;
+}
+#nav_li {
+  font-size: 20px;
+}
+#col_container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+#typewriter_h1 {
+  position: relative;
+  color: #ffff;
+  font-weight: bold;
+  font-family: inherit;
+  overflow: hidden;
+ font-size: 50px;
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+}
+#right_col_lottie {
+  height: 300px;
+  width: 300px;
+}
+#input{
+    width: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+}
+
+#btn{
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    #col_container {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        margin-left: 0px;
+      }
+    #typewriter_h1 {
+        position: relative;
+        color: #ffff;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: inherit;
+        overflow: hidden;
+        width: 300px;
+        white-space: nowrap;
+        animation: typewriter 4s steps(44) 1s 1 normal both,
+          blinkTextCursor 500ms infinite;
+      }
+      
+      @keyframes typewriter {
+        from {
+          width: 0;
+        }
+      }
+      #input{
+        width: 300px;
+       
+    }
+}
